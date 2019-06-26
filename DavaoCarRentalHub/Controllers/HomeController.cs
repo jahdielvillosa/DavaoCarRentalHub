@@ -99,5 +99,25 @@ namespace DavaoCarRentalHub.Controllers
                     return View("~/Views/Home/CarViews/ListingAds.cshtml");
             }
         }
+
+
+
+        #region Dynamic SiteMap 
+        [Route("sitemap.xml")] 
+        //localhost:12345
+        public ActionResult SitemapXml()
+        {
+            string currentUrl = Request.Url.AbsoluteUri;
+            int iTmp = currentUrl.IndexOf('/', 15);
+            string newurl = currentUrl.Substring(0, iTmp + 1);
+
+            Models.SiteMap sm = new Models.SiteMap();
+            var sitemapNodes = sm.GetSitemapNodes(newurl);
+            string xml = sm.GetSitemapDocument(sitemapNodes);
+            return this.Content(xml, "text/xml", System.Text.Encoding.UTF8);
+
+        }
+        #endregion
+
     }
 }

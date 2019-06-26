@@ -191,6 +191,17 @@ namespace DavaoCarRentalHub
               defaults: new { controller = "Home", action = "CarView", carDesc = "van-for-rent-davao-city" }
             );
 
+            routes.MapRoute(
+              name: "sitemap",
+              url: "sitemap",
+              defaults: new { controller = "Home", action = "SitemapXml"}
+            );
+
+            routes.MapRoute(
+              name: "sitemap.xml",
+              url: "sitemap.xml/",
+              defaults: new { controller = "Home", action = "SitemapXml" }
+            );
 
             routes.MapRoute(
                 name: "Default",
