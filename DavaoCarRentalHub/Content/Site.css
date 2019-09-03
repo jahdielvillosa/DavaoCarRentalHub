@@ -159,3 +159,17 @@ textarea {
         font-weight:bold;
     }
     
+    .rsv-call-text{
+        color: white;
+        width:200px;
+       
+    }
+    .rsv-call-btn{
+        color: white;
+        width:270px;
+    }
+
+    .btn-rsv{
+        width:164px;
+
+    }
