@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -187,6 +188,14 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\Ads\Latest\Innova-2019.png" />
+    <Content Include="Images\Ads\Latest\Toyota-Rush-2019.png" />
+    <Content Include="Images\Ads\Services\Svc-Airport-Pk.png" />
+    <Content Include="Images\Ads\Services\Svc-CarRental-Drv.png" />
+    <Content Include="Images\Ads\Services\Svc-CarRental-SelfDrv.png" />
+    <Content Include="Images\Ads\Services\Svc-City-Tour.png" />
+    <Content Include="Images\Ads\Services\Svc-CntrySd-Tour.png" />
+    <Content Include="Images\Ads\Services\Svc-Sml-tour.png" />
     <Content Include="Images\CarRental\CarViews\FordEverest\Ford-Everest.png" />
     <Content Include="Images\CarRental\CarViews\FordEverest\Ford-Fiesta.jpg" />
     <Content Include="Images\CarRental\CarViews\HondaCity2012\HondaCity2012-interior.jpg" />
