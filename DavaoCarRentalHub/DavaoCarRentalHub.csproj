@@ -190,7 +190,6 @@
     <Content Include="Content\Site.css" />
     <Content Include="Images\Ads\Latest\Innova-2019.png" />
     <Content Include="Images\Ads\Latest\Toyota-Rush-2019.png" />
-    <Content Include="Images\Ads\Services\Svc-Aiport-Pk.png" />
     <Content Include="Images\Ads\Services\Svc-Airport-Pk.png" />
     <Content Include="Images\Ads\Services\Svc-CarRental-Drv.png" />
     <Content Include="Images\Ads\Services\Svc-CarRental-SelfDrv.png" />
@@ -375,6 +374,12 @@
     <Content Include="Views\Home\CarViews\ToyotaSuperGrandia.cshtml" />
     <Content Include="Views\Home\CarViews\ToyotaInnova2019.cshtml" />
     <Content Include="Views\Home\CarViews\NissanUrvanPremium.cshtml" />
+    <Content Include="Views\Home\CarViews\Services\CarRentalwDriver.cshtml" />
+    <Content Include="Views\Home\CarViews\Services\CarRentalSelfDrive.cshtml" />
+    <Content Include="Views\Home\CarViews\Services\DavaoCityTour.cshtml" />
+    <Content Include="Views\Home\CarViews\Services\CountrySideTour.cshtml" />
+    <Content Include="Views\Home\CarViews\Services\SamalInlandTour.cshtml" />
+    <Content Include="Views\Home\CarViews\Services\AirportTransfer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

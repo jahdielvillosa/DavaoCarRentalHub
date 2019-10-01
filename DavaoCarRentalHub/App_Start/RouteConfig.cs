@@ -12,8 +12,8 @@ namespace DavaoCarRentalHub
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-            /*******************************
-             * Custom from ajdavaocarrental
+            /********************************
+             * Custom from ajdavaocarrental   
              ********************************/
             routes.MapRoute(
               name: "ads-honda-city-automatic",
@@ -68,13 +68,36 @@ namespace DavaoCarRentalHub
               url: "ads/toyota-avanza-1-3e-at/",
               defaults: new { controller = "Home", action = "CarView", carDesc = "toyota-avanza" }
             );
+
             routes.MapRoute(
               name: "ads/van-rental-davao-city/",
               url: "ads/van-rental-davao-city/",
               defaults: new { controller = "Home", action = "CarView", carDesc = "van-rental" }
             );
 
+            routes.MapRoute(
+              name: "ads/toyota-rush/",
+              url: "ads/toyota-rush/",
+              defaults: new { controller = "Home", action = "CarView", carDesc = "toyota-rush" }
+            );
 
+            routes.MapRoute(
+              name: "ads/toyota-innova-2019/",
+              url: "ads/toyota-innova-2019/",
+              defaults: new { controller = "Home", action = "CarView", carDesc = "toyota-innova-2019" }
+            );
+
+            routes.MapRoute(
+              name: "ads/toyota-super-grandia/",
+              url: "ads/toyota-super-grandia/",
+              defaults: new { controller = "Home", action = "CarView", carDesc = "toyota-super-grandia" }
+            );
+
+            routes.MapRoute(
+              name: "ads/nissan-urvan-premium/",
+              url: "ads/nissan-urvan-premium/",
+              defaults: new { controller = "Home", action = "CarView", carDesc = "nissan-urvan-premium" }
+            );
             /*******************************
              * Custom from ajdavaocarrental / Page 2
              ********************************/
@@ -90,7 +113,6 @@ namespace DavaoCarRentalHub
               url: "ads/innovacar-for-rent-davao-city/",
               defaults: new { controller = "Home", action = "CarView", carDesc = "p2-innova-rental" }
             );
-
 
             routes.MapRoute(
               name: "ads/rent-a-car-davao-city-self-drive/",
@@ -119,7 +141,7 @@ namespace DavaoCarRentalHub
 
             /*******************************
              * Custom from ajdavaocarrental / listing
-             ********************************/
+             *******************************/
             routes.MapRoute(
               name: "/ad-category/sedans/",
               url: "ad-category/sedans/",
@@ -165,6 +187,48 @@ namespace DavaoCarRentalHub
               url: "ad-category/pickup/",
               defaults: new { controller = "Home", action = "CarView", carDesc = "ads-listing-pickup" }
             );
+
+            /*******************************
+             * Custom from davaocarrentalhub / services
+             ********************************/
+            routes.MapRoute(
+              name: "services/car-rental-self-drive/",
+              url: "services/car-rental-self-drive/",
+              defaults: new { controller = "Home", action = "CarView", carDesc = "car-rental-self-drive" }
+            );
+
+            routes.MapRoute(
+              name: "services/car-rental-with-driver/",
+              url: "services/car-rental-with-driver/",
+              defaults: new { controller = "Home", action = "CarView", carDesc = "car-rental-with-driver" }
+            );
+
+
+            routes.MapRoute(
+              name: "services/davao-city-tour/",
+              url: "services/davao-city-tour/",
+              defaults: new { controller = "Home", action = "CarView", carDesc = "davao-city-tour" }
+            );
+
+
+            routes.MapRoute(
+              name: "services/country-side-tour/",
+              url: "services/country-side-tour/",
+              defaults: new { controller = "Home", action = "CarView", carDesc = "country-side-tour" }
+            );
+
+            routes.MapRoute(
+              name: "services/samal-inland-tour/",
+              url: "services/samal-inland-tour/",
+              defaults: new { controller = "Home", action = "CarView", carDesc = "samal-inland-tour" }
+            );
+
+            routes.MapRoute(
+              name: "services/airport-transfer/",
+              url: "services/airport-transfer/",
+              defaults: new { controller = "Home", action = "CarView", carDesc = "airport-transfer" }
+            );
+
             /*******************************
              * Custom from ajdavaocarrental / ad-tags
              ********************************/

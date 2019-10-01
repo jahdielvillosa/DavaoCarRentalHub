@@ -89,6 +89,22 @@ namespace DavaoCarRentalHub.Controllers
                 case "van-for-rent-davao-city":
                     return View("~/Views/Home/CarViews/Tags/van-for-rent-davao-city.cshtml");
 
+
+                //services
+                case "car-rental-self-drive":
+                    return View("~/Views/Home/CarViews/Services/CarRentalSelfDrive.cshtml");
+                case "car-rental-with-driver":
+                    return View("~/Views/Home/CarViews/Services/CarRentalwDriver.cshtml");
+                case "davao-city-tour":
+                    return View("~/Views/Home/CarViews/Services/DavaoCityTour.cshtml");
+                case "country-side-tour":
+                    return View("~/Views/Home/CarViews/Services/CountrySideTour.cshtml");
+                case "samal-inland-tour":
+                    return View("~/Views/Home/CarViews/Services/SamalInlandTour.cshtml");
+                case "airport-transfer":
+                    return View("~/Views/Home/CarViews/Services/AirportTransfer.cshtml");
+
+
                 //listing start
                 case "sedan-listing":
                     return View("~/Views/Home/CarViews/ListingSedan.cshtml");
