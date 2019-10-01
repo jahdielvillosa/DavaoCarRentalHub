@@ -190,6 +190,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Images\Ads\Latest\Innova-2019.png" />
     <Content Include="Images\Ads\Latest\Toyota-Rush-2019.png" />
+    <Content Include="Images\Ads\Services\Svc-Aiport-Pk.png" />
     <Content Include="Images\Ads\Services\Svc-Airport-Pk.png" />
     <Content Include="Images\Ads\Services\Svc-CarRental-Drv.png" />
     <Content Include="Images\Ads\Services\Svc-CarRental-SelfDrv.png" />
@@ -249,8 +250,6 @@
     <Content Include="Images\CarRental\hondacity\hondacity_rearview.jpg" />
     <Content Include="Images\CarRental\hondaCity_Banner.png" />
     <Content Include="Images\CarRental\hondacity_primary.jpg" />
-    <Content Include="Images\CarRental\CarViews\innova2019\Toyota-Innova-2019-back-seat.png" />
-    <Content Include="Images\CarRental\CarViews\innova2019\Toyota-Innova-2019-BackSeat.png" />
     <Content Include="Images\CarRental\CarViews\innova2019\Toyota-Innova-2019-FontSeat.png" />
     <Content Include="Images\CarRental\CarViews\innova2019\Toyota-Innova-2019-front.png" />
     <Content Include="Images\CarRental\InnovaPrimary.png" />
