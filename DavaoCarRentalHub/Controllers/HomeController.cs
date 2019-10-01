@@ -33,6 +33,17 @@ namespace DavaoCarRentalHub.Controllers
         {
             switch (carDesc)
             {
+                //new listing
+                case "toyota-super-grandia":
+                    return View("~/Views/Home/CarViews/ToyotaSuperGrandia.cshtml");
+                case "nissan-urvan-premium":
+                    return View("~/Views/Home/CarViews/NissanUrvanPremium.cshtml");
+                case "toyota-innova-2019":
+                    return View("~/Views/Home/CarViews/ToyotaInnova2019.cshtml");
+                case "toyota-rush":
+                    return View("~/Views/Home/CarViews/ToyotaRush.cshtml");
+
+                //page 1
                 case "honda-city":
                     return View("~/Views/Home/CarViews/HondaCity.cshtml");
                 case "honda-city-2012":

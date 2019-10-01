@@ -204,10 +204,12 @@
     <Content Include="Images\CarRental\CarViews\HondaCity2012\HondaCity2012.jpg" />
     <Content Include="Images\CarRental\CarViews\HondaCity2012\HondaCityFront.jpg" />
     <Content Include="Images\CarRental\CarViews\HondaCity\HondaCity2018.png" />
+    <Content Include="Images\CarRental\CarViews\innova2019\Toyota-Innova-2019.png" />
     <Content Include="Images\CarRental\CarViews\Pickup\Estrada.jpg" />
     <Content Include="Images\CarRental\CarViews\SelfDrive\HondaCity2012 %282%29.jpg" />
     <Content Include="Images\CarRental\CarViews\SelfDrive\Toyota-Innova %282%29.png" />
     <Content Include="Images\CarRental\CarViews\SelfDrive\ToyotaInnova2015 %282%29.jpg" />
+    <Content Include="Images\CarRental\CarViews\supergrandia\Toyota-Super-Grandia.png" />
     <Content Include="Images\CarRental\CarViews\ToyotaAvanza\ToyotaAvanza.jpg" />
     <Content Include="Images\CarRental\CarViews\ToyotaFortuner\Fortuner.png" />
     <Content Include="Images\CarRental\CarViews\ToyotaGrandia\Toyota-GL-Grandia-interior.jpg" />
@@ -217,6 +219,7 @@
     <Content Include="Images\CarRental\CarViews\ToyotaInnova\Toyota-innova.png" />
     <Content Include="Images\CarRental\CarViews\ToyotaInnova\toyotainnova2015.jpg" />
     <Content Include="Images\CarRental\CarViews\ToyotaInnova\ToyotaInnovaSilver.jpg" />
+    <Content Include="Images\CarRental\CarViews\ToyotaRush\Toyota-Rush.png" />
     <Content Include="Images\CarRental\CarViews\ToyotaSelfDrive\ToyotaSelfDrive.jpg" />
     <Content Include="Images\CarRental\CarViews\ToyotaSelfDrive\ToyotaSelfDrive2.jpg" />
     <Content Include="Images\CarRental\CarViews\VanRental\VanRear.jpg" />
@@ -246,12 +249,18 @@
     <Content Include="Images\CarRental\hondacity\hondacity_rearview.jpg" />
     <Content Include="Images\CarRental\hondaCity_Banner.png" />
     <Content Include="Images\CarRental\hondacity_primary.jpg" />
+    <Content Include="Images\CarRental\CarViews\innova2019\Toyota-Innova-2019-back-seat.png" />
+    <Content Include="Images\CarRental\CarViews\innova2019\Toyota-Innova-2019-BackSeat.png" />
+    <Content Include="Images\CarRental\CarViews\innova2019\Toyota-Innova-2019-FontSeat.png" />
+    <Content Include="Images\CarRental\CarViews\innova2019\Toyota-Innova-2019-front.png" />
     <Content Include="Images\CarRental\InnovaPrimary.png" />
     <Content Include="Images\CarRental\innova\toyotainnova_front.jpg" />
     <Content Include="Images\CarRental\innova\toyotainnova_interior.jpg" />
     <Content Include="Images\CarRental\innova\ToyotaInnova_SideView.jpg" />
     <Content Include="Images\CarRental\nissan-premium-car-rental.PNG" />
     <Content Include="Images\CarRental\NissanPremiumPrimary.png" />
+    <Content Include="Images\CarRental\CarViews\NissanPremium\Nissan-Premium-Seats.png" />
+    <Content Include="Images\CarRental\CarViews\NissanPremium\Nissan-Premium.png" />
     <Content Include="Images\CarRental\nissanPremium\nissanpremium_frontview.jpg" />
     <Content Include="Images\CarRental\nissanPremium\nissanpremium_interior.jpg" />
     <Content Include="Images\CarRental\nissanPremium\nissanpremium_sideview.jpg" />
@@ -263,7 +272,15 @@
     <Content Include="Images\CarRental\pickup\pickup_interior.jpg" />
     <Content Include="Images\CarRental\pickup\pickup_sideview.jpg" />
     <Content Include="Images\CarRental\placeholder.png" />
+    <Content Include="Images\CarRental\CarViews\ToyotaRush\Toyota-Rush-2019-Back-Seat.png" />
+    <Content Include="Images\CarRental\CarViews\ToyotaRush\Toyota-Rush-2019-Front-Seat.png" />
+    <Content Include="Images\CarRental\CarViews\ToyotaRush\Toyota-Rush-2019-Front.png" />
+    <Content Include="Images\CarRental\CarViews\ToyotaRush\Toyota-Rush-2019.png" />
     <Content Include="Images\CarRental\strada_primary.jpg" />
+    <Content Include="Images\CarRental\CarViews\supergrandia\Super-Grandia-Captain-Seat.jpg" />
+    <Content Include="Images\CarRental\CarViews\supergrandia\Super-Grandia-Seats %282%29.jpg" />
+    <Content Include="Images\CarRental\CarViews\supergrandia\Super-Grandia-Seats.jpg" />
+    <Content Include="Images\CarRental\CarViews\supergrandia\Super-Grandia.jpg" />
     <Content Include="Images\CarRental\toyota-innova-car-rental.PNG" />
     <Content Include="Images\CarRental\ToyotaFortuner_primary.png" />
     <Content Include="Images\CarRental\ToyotaGrandia.jpg" />
@@ -355,6 +372,10 @@
     <Content Include="Views\Home\CarViews\Tags\Davao-Rent-A-Car.cshtml" />
     <Content Include="Views\Home\CarViews\Tags\rent-a-car-davao-city.cshtml" />
     <Content Include="Views\Home\CarViews\Tags\van-for-rent-davao-city.cshtml" />
+    <Content Include="Views\Home\CarViews\ToyotaRush.cshtml" />
+    <Content Include="Views\Home\CarViews\ToyotaSuperGrandia.cshtml" />
+    <Content Include="Views\Home\CarViews\ToyotaInnova2019.cshtml" />
+    <Content Include="Views\Home\CarViews\NissanUrvanPremium.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
