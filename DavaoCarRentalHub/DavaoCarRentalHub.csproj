@@ -255,6 +255,7 @@
     <Content Include="Images\CarRental\innova\toyotainnova_front.jpg" />
     <Content Include="Images\CarRental\innova\toyotainnova_interior.jpg" />
     <Content Include="Images\CarRental\innova\ToyotaInnova_SideView.jpg" />
+    <Content Include="Images\CarRental\maps\RealBreeze_Location.png" />
     <Content Include="Images\CarRental\nissan-premium-car-rental.PNG" />
     <Content Include="Images\CarRental\NissanPremiumPrimary.png" />
     <Content Include="Images\CarRental\CarViews\NissanPremium\Nissan-Premium-Seats.png" />
@@ -305,6 +306,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\richResult\HondaCity.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
